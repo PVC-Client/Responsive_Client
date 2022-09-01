@@ -1,0 +1,47 @@
+.registration-main{
+
+    width: 100%;
+    /* height:65rem; */
+    background-color: rgb(255, 255, 255);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+   height: 350vh;
+}
+
+.registration-heading{
+    
+    width: 100%;
+    height: 60px;
+    border-bottom: 5px double rgb(4, 4, 54);
+    width: 15vw;
+}
+
+.registration-heading h3{
+
+    color: rgb(4, 4, 54);
+    font-size: 35px;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    display: inline-block;
+
+    
+}
+
+
+
+
+.registration-main .resgistation{
+
+    width: 90%;
+    height: auto;
+   
+}
+
+.items-reverse{
+    
+    flex-direction: row-reverse;
+}

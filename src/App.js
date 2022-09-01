@@ -1,23 +1,25 @@
 import logo from './logo.svg';
 import './App.css';
+import Home_navbar from './Home_navbar';
+import { HomeSlider } from './slider/HomeSlider';
+import Services from './Services';
+import Gst from './gst/Gst';
+import Registration from './registration/Registration';
+import Trademark from './Trademark';
+import Why_chooseus from './Why_chooseus';
+import Info from './Info';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Home_navbar></Home_navbar>
+      <HomeSlider></HomeSlider>
+      <Why_chooseus></Why_chooseus>
+      <Services></Services>
+      <Gst></Gst>
+      <Registration></Registration>
+      <Info></Info>
+      <Trademark></Trademark>
     </div>
   );
 }

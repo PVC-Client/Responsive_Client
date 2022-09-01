@@ -1,0 +1,25 @@
+.services{
+    width: 100vw;
+    height: 350vh;
+    background-color: rgb(243, 235, 235);
+}
+.services .head{
+   width: 15vw;
+    border-bottom: 5px double rgb(4, 4, 54);
+    margin: auto;
+    
+    
+}
+.services .head h1{
+    padding-top: 50px;
+    color: rgb(4, 4, 54);
+}
+.services .content{
+    width: 100vw;
+    height: 330vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
