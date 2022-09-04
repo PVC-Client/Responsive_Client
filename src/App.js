@@ -8,6 +8,7 @@ import Registration from './registration/Registration';
 import Trademark from './Trademark';
 import Why_chooseus from './Why_chooseus';
 import Info from './Info';
+import Promises from './Promises';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Registration></Registration>
       <Info></Info>
       <Trademark></Trademark>
+      <Promises></Promises>
     </div>
   );
 }

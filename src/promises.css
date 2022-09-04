@@ -1,0 +1,72 @@
+.promises{
+    width: 100vw;
+    height: 85vh;
+    background-color: rgb(243, 235, 235);
+}
+.promises .head{
+   width: 16vw;
+    border-bottom: 5px double black;
+    margin: auto;
+    
+    
+}
+.promises .head h1{
+    padding-top: 20px;
+    color: rgb(4, 4, 54);
+}
+.promises .content{
+    width: 100vw;
+    height: 60vh;
+   padding-top: 5vh;
+}
+.promises .content .first{
+    width: 100vw;
+    height: 20vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.promises .content .first .box1{
+    width: 40vw;
+    height: 18vh;
+    background-color: rgb(4, 4, 54);
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.promises .content .first .box1 #icon{
+    color: whitesmoke;
+    font-size: 2.8rem;
+    padding-left: 10px;
+    color: rgb(122, 253, 0);
+}
+.promises .content .first .box1 h2{
+font-family: 'Josefin Sans', sans-serif;
+padding-left: 10px;
+color: rgb(249, 249, 249);
+font-weight: bolder;
+}
+.promises .content .first .box2{
+    width: 40vw;
+    height: 18vh;
+    background-color: rgb(1, 115, 105);
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.promises .content .first .box2 #icon{
+    color: whitesmoke;
+    font-size: 2.8rem;
+    padding-left: 10px;
+    color: rgb(122, 253, 0);
+}
+.promises .content .first .box2 h2{
+    font-family: 'Josefin Sans', sans-serif;
+    padding-left: 10px;
+    color: whitesmoke;
+    font-weight: bolder;
+    }
+    

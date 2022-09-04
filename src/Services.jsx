@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './services.css';
 import ux from './images/ux_design.jpeg';
 import web from './images/web_dev.jpeg';
@@ -8,17 +8,30 @@ import bus_report from './images/business_report.jpeg';
 
 import Cards_left from './cards/Cards_left';
 import Cards_right from './cards/Cards_right';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const Services = () => {
+  useEffect(() => {
+      
+    AOS.init({
+       
+    easing: 'ease', // default easing for AOS animations
+    once: false, // whether animation should happen only once - while scrolling down
+    // whether elements should animate out while scrolling past them
+    });
+    
+  });
   return (
     <div className='services'> 
     <div className='head'>
-       <h1>Our Services</h1>
+       <h1 data-aos="zoom-in" data-aos-duration="1000" data-aos-offset="400">Our Services</h1>
 </div>
 <div className='content'>
 {/* /-------------------------------------------------------------------------card1-----------------------------------------------------/ */}
   <Cards_left image={ux}
   title="UX Design"
-  desc="UX design is the process used to determine what the experience will be like when a user interacts with your product. UX requires a deep understanding of the user: their needs, wants, behaviours, and the context in which they will use a product. Before our clients (and we) understood the value of user-centered design, we made design decisions based on just two things: what we thought was awesome and what the client wanted to see."> 
+  desc="UX design is the process used to determine what the experience will be like when a user interacts with your product. UX requires a deep understanding of the user: their needs, wants, behaviours, and the context in which they will use a product. Before our clients (and we) understood the value of user-centered design, we made design decisions based on just two things: what we thought was awesome and what the client wanted to see."
+  >
   </Cards_left>
 
   {/* /---------------------------------------------------------------------------card2-----------------------------------------------------/ */}
