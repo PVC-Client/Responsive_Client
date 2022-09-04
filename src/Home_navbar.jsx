@@ -1,4 +1,5 @@
 import React, { useRef } from 'react'
+import { useNavigate } from 'react-router-dom';
 import './home_navbar.css';
 import logo from './images/logo.png';
 const Home_navbar = () => {
@@ -10,6 +11,13 @@ const Home_navbar = () => {
     else{
       bar.current.classList.remove("active2");
     }
+  }
+  const navigate=useNavigate();
+  const login=()=>{
+    navigate("/login");
+  }
+  const Sign=()=>{
+    navigate("/createAccount");
   }
   return (
     <div className='home_navbar'>
@@ -108,8 +116,8 @@ const Home_navbar = () => {
           </li>
           <li>About Us</li>
         </ul>
-        <button className='btn2'>Sign Up</button>
-        <button className='btn3'>Log In</button>
+        <button className='btn2' onClick={Sign}>Sign Up</button>
+        <button className='btn3' onClick={login}>Log In</button>
       </div>
     </div>
   )
