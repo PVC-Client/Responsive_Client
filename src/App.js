@@ -9,6 +9,8 @@ import Trademark from './Trademark';
 import Why_chooseus from './Why_chooseus';
 import Info from './Info';
 import Promises from './Promises';
+import Compilance from './Compilance';
+
 
 function App() {
   return (
@@ -22,6 +24,7 @@ function App() {
       <Info></Info>
       <Trademark></Trademark>
       <Promises></Promises>
+      <Compilance></Compilance>
     </div>
   );
 }

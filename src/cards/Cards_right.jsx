@@ -3,7 +3,7 @@ import './cards.css';
 
 const Cards_right = (props) => {
   return (
-    <div  className='services-card' data-aos="fade-right" data-aos-duration="2000" >
+    <div  className='services-card' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
     
      <div className='right'>
        <h1>{props.title}</h1>

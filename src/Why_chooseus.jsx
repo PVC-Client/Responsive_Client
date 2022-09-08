@@ -1,16 +1,29 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './whychoose.css'
 import why_choose from './images/why_choose.png';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const Why_chooseus = () => {
+    useEffect(() => {
+      
+        AOS.init({
+           
+        easing: 'ease', // default easing for AOS animations
+        once: false,
+        offset:250, // whether animation should happen only once - while scrolling down
+        // whether elements should animate out while scrolling past them
+        });
+        
+      });
   return (
     <div className='why_choseus'>
         
             <div className='head'>
-                <h1>Why Choose PTC?</h1>
+                <h1 data-aos="zoom-in" data-aos-duration="1500">Why Choose PTC?</h1>
             </div>
             <div className='content'>
                 {/* /-------------------------------------------------------------------------card1-----------------------------------------------------/ */}
-                <div className='why_choseus-card'>
+                <div className='why_choseus-card' data-aos="fade-up" data-aos-duration="1500">
                     <div className='left'>
                         <img src={why_choose}></img>
                     </div>

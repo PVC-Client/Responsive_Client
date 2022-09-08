@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import './home_navbar.css';
 import logo from './images/logo.png';
 const Home_navbar = () => {
@@ -39,9 +39,9 @@ const Home_navbar = () => {
       <div className='navbar1' ref={bar}>
         <img src={logo} className="logo"></img>
         <ul>
-          <li>Home</li>
+          <a href="#"><li>Home</li></a>
          {/* /-----------------------------------------------------------services-------------------------------------------------/ */}
-          <li>Services<span><i class="fa-solid fa-chevron-down" id="menu_icon"></i></span>
+          <li><Link to={'/services'}><span>Services</span> </Link><span><i class="fa-solid fa-chevron-down" id="menu_icon"></i></span>
           
           <div className='submenu'>
           <ul>
@@ -54,6 +54,7 @@ const Home_navbar = () => {
           </ul>
         </div>
           </li>
+         
           {/* /---------------------------------------------------------------compilance-----------------------------------------------------/ */}
           
           <li>Compilance<span><i class="fa-solid fa-chevron-down" id="menu_icon"></i></span>

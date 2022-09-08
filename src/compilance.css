@@ -1,0 +1,25 @@
+.compilance{
+    width: 100vw;
+    height: 700vh;
+    background-color: rgb(243, 235, 235);
+}
+.compilance .head{
+   width: 15vw;
+    border-bottom: 5px double rgb(4, 4, 54);
+    margin: auto;
+    
+    
+}
+.compilance .head h1{
+    padding-top: 20px;
+    color: rgb(4, 4, 54);
+}
+.compilance .content{
+    width: 100vw;
+    height: 680vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+

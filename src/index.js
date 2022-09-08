@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Gstregis_form from './Gstregis_form';
 import Multipleinputs from './login/Multipleinputs';
 import Signup from './signup/SignUp';
+import Services from './Services';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -16,6 +17,7 @@ root.render(
     <Route path='/gst_registration' element={<Gstregis_form/>}></Route>
     <Route path="/login" element={<Multipleinputs/>}></Route>
     <Route path="/createAccount" element={<Signup/>}></Route>
+    <Route path="/services" element={<Services/>}></Route>
   </Routes>
  </BrowserRouter>
 );

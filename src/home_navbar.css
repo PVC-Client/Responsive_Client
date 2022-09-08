@@ -90,7 +90,10 @@
    font-size: 1.2rem;
    color: rgb(4, 4, 54);
    font-weight: bold;
-  
+   list-style: none;
+}
+.home_navbar .navbar1 ul a{
+    text-decoration: none;
 }
 .home_navbar .navbar1 ul #menu_icon{
     padding-top: 5px;

@@ -4,7 +4,7 @@ import './cards.css';
 const Cards_left = (props) => {
   return (
   <section id="ux">
-    <div  className='services-card' data-aos="fade-left" data-aos-duration="2000" data-aos-offset="500">
+    <div  className='services-card' data-aos="fade-up" data-aos-duration="1000" >
     <div className='left'>
      <img src={props.image}></img>
      </div>

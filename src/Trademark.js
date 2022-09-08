@@ -1,18 +1,29 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './trademark.css';
 import trade_lic from './images/trade_lic.jpg';
 import trade_obj from './images/trade_obj.jpg';
 import trade_reg from './images/trade_reg.jpg';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const Trademark = () => {
+    useEffect(() => {
+      
+        AOS.init({
+           
+        easing: 'ease', // default easing for AOS animations
+        once: false, // whether animation should happen only once - while scrolling down
+        // whether elements should animate out while scrolling past them
+        });
+        
+      });
     return (
         <div className='trademark'>
             <div className='head'>
-                <h1>Our Trademark Services</h1>
+                <h1 data-aos="zoom-in" data-aos-duration="1500">Our Trademark Services</h1>
             </div>
             <div className='content'>
                 {/* /-------------------------------------------------------------------------card1-----------------------------------------------------/ */}
-                <div className='trademark-card pt-4'>
+                <div className='trademark-card pt-4' data-aos="fade-up" data-aos-duration="1500">
                     <div className='left'>
                         <img src={trade_reg}></img>
                     </div>
@@ -22,7 +33,7 @@ const Trademark = () => {
                     </div>
                 </div>
                 {/* /---------------------------------------------------------------------------card2-----------------------------------------------------/ */}
-                <div className='trademark-card'>
+                <div className='trademark-card' data-aos="fade-up" data-aos-duration="1500">
 
                     <div className='right'>
                         <h1>Trademark objection</h1>
@@ -33,7 +44,7 @@ const Trademark = () => {
                     </div>
                 </div>
                 {/* /-----------------------------------------------------------------------------card3----------------------------------------------/ */}
-                <div className='trademark-card'>
+                <div className='trademark-card' data-aos="fade-up" data-aos-duration="1500">
                     <div className='left'>
                         <img src={trade_lic}></img>
                     </div>
