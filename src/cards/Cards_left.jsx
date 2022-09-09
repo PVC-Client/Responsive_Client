@@ -3,7 +3,7 @@ import './cards.css';
 
 const Cards_left = (props) => {
   return (
-  <section id="ux">
+  <section id={props.href}>
     <div  className='services-card' data-aos="fade-up" data-aos-duration="1000" >
     <div className='left'>
      <img src={props.image}></img>

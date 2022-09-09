@@ -76,4 +76,73 @@ font-weight: bolder;
     color: whitesmoke;
     font-weight: bolder;
     }
-    
+    @media(min-width:350px) and (max-width:650px){
+        .promises .content .first .box1{
+            flex-direction: column;
+            
+            justify-content: center;
+            align-items: center;
+        }
+        .promises .content .first .box1 #icon{
+            font-size: 1rem;
+            padding-left: 0px;
+        }
+        .promises .content .first .box1 h2{
+            font-size: .6rem;
+            font-weight: lighter;
+            padding-left: 0px;
+            text-align: center;
+            padding-top: 10px;
+        }
+        .promises .content .first .box2{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .promises .content .first .box2 #icon{
+            font-size: 1rem;
+            padding-left: 0px;
+        }
+        .promises .content .first .box2 h2{
+            font-size: .6rem;
+            font-weight: lighter;
+            padding-left: 0px;
+            text-align: center;
+            padding-top: 10px;
+        }
+    }
+    @media(min-width:650px) and (max-width:900px){
+        .promises .content .first .box1{
+            flex-direction: column;
+            
+            justify-content: center;
+            align-items: center;
+        }
+        .promises .content .first .box1 #icon{
+            font-size: 1.1rem;
+            padding-left: 0px;
+        }
+        .promises .content .first .box1 h2{
+            font-size: .9rem;
+            font-weight: lighter;
+            padding-left: 0px;
+            text-align: center;
+            padding-top: 10px;
+        }
+        .promises .content .first .box2{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .promises .content .first .box2 #icon{
+            font-size: 1.1rem;
+            padding-left: 0px;
+        }
+        .promises .content .first .box2 h2{
+            font-size: .9rem;
+            font-weight: lighter;
+            padding-left: 0px;
+            text-align: center;
+            padding-top: 10px;
+        }
+    }

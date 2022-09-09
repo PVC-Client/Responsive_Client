@@ -28,4 +28,12 @@
     align-items: center;
     flex-direction: column;
 }
+@media(min-width:350px) and (max-width:650px){
+    .services{
+        height: auto;
+    }
+    .services .content{
+        height: auto;
 
+    }
+}

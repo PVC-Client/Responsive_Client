@@ -47,10 +47,10 @@ const Home_navbar = () => {
           <div className='submenu'>
           <ul>
             <a href="#ux"><li>UX Design</li></a>
-            <li href="#web">Web Development</li>
-            <li href="#bro">Brochure Designing</li>
-            <li href="#visit">Visiting Card</li>
-            <li href="#busi">Business Reports</li>
+           <a href="#web"><li>Web Development</li></a>
+            <a href="#bro"><li>Brochure Designing</li></a>
+            <a href="#visit"><li>Business Card</li></a>
+            <a href="#busi"><li>Business Reports</li></a>
             
           </ul>
         </div>

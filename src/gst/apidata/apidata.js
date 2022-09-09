@@ -11,7 +11,8 @@ const data = [
     {
        name:"GST filing",
        image_url:gstfilling,
-       content:"GST returns has to be filed by all the business entities who are registered under the GST system. The filing process has to be identified on the basis of the nature of the business.The businesses registered under GST have to file returns monthly, quarterly and annualy based on the category of business through the Government of India's GST PORTAL."
+       content:"GST returns has to be filed by all the business entities who are registered under the GST system. The filing process has to be identified on the basis of the nature of the business.The businesses registered under GST have to file returns monthly, quarterly and annualy based on the category of business through the Government of India's GST PORTAL.",
+       click:"gst_filling"
     }
 ]
 
