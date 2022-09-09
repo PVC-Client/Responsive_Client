@@ -20,7 +20,7 @@ function Registration() {
     <div className="registration-main">
 
             <div className="registration-heading">
-                <h3 data-aos="zoom-in" data-aos-duration="1000">Registration</h3>
+                <h1 data-aos="zoom-in" data-aos-duration="1000">Registration</h1>
                 <div className="registration-h3-underline">
                  
                 </div>

@@ -4,15 +4,21 @@
     background-color: rgb(243, 235, 235);
 }
 .services .head{
-   width: 15vw;
-    border-bottom: 5px double rgb(4, 4, 54);
-    margin: auto;
+    width: 100%;
+    height: 10vh;
+    
+    display: flex;
+    align-items:center;
+    justify-content: center;
     
     
 }
 .services .head h1{
-    padding-top: 50px;
+    padding-bottom: 5px;
+    
+    border-bottom: 5px double black;
     color: rgb(4, 4, 54);
+    
 }
 .services .content{
     width: 100vw;

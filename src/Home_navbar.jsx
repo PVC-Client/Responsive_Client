@@ -2,6 +2,7 @@ import React, { useRef } from 'react'
 import { Link, useNavigate } from 'react-router-dom';
 import './home_navbar.css';
 import logo from './images/logo.png';
+// import './media_laptop.css';
 const Home_navbar = () => {
   const bar=useRef(null);
   window.onscroll= () =>{
@@ -46,10 +47,10 @@ const Home_navbar = () => {
           <div className='submenu'>
           <ul>
             <a href="#ux"><li>UX Design</li></a>
-            <li>Web Development</li>
-            <li>Brochure Designing</li>
-            <li>Visiting Card</li>
-            <li>Business Reports</li>
+            <li href="#web">Web Development</li>
+            <li href="#bro">Brochure Designing</li>
+            <li href="#visit">Visiting Card</li>
+            <li href="#busi">Business Reports</li>
             
           </ul>
         </div>

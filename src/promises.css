@@ -4,15 +4,22 @@
     background-color: rgb(243, 235, 235);
 }
 .promises .head{
-   width: 16vw;
-    border-bottom: 5px double black;
-    margin: auto;
+    width: 100%;
+    height: 10vh;
+    
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding-top: 5vh;
     
     
 }
 .promises .head h1{
-    padding-top: 20px;
+    padding-bottom: 5px;
+    
+    border-bottom: 5px double black;
     color: rgb(4, 4, 54);
+    
 }
 .promises .content{
     width: 100vw;

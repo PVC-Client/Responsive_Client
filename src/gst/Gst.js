@@ -25,7 +25,7 @@ function Gst() {
         <div className="gst-main">
 
             <div className="gst-heading">
-                <h3 data-aos="zoom-in" data-aos-duration="1000">GST Services</h3>
+                <h1 data-aos="zoom-in" data-aos-duration="1000">GST Services</h1>
                 
 
             </div>

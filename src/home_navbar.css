@@ -1,10 +1,10 @@
 .home_navbar{
-    width: 100vw;
+    width: 100%;
     height: 17vh;
    
 }
 .home_navbar .top{
-    width: 100vw;
+    width: 100%;
     height: 8vh;
     background-color: rgb(4, 4, 54);
     display: flex;
@@ -41,7 +41,7 @@
 .home_navbar .top .clock{
     display: flex;
     color: whitesmoke;
-    margin-left: 25vw;
+    margin-left: 22vw;
 }
 .home_navbar .top .clock h4{
     all: unset;
@@ -55,7 +55,7 @@
 
 .home_navbar .navbar1{
    
-    width: 100vw;
+    width: 100%;
     height: 8vh;
     display: flex;
     align-items: center;
@@ -74,7 +74,7 @@
 .home_navbar .navbar1 img{
     width: 100px;
     height: 100px;
-    margin-left: 14vw;
+    margin-left: 8vw;
 }
 .home_navbar .navbar1 ul{
     all: unset;
