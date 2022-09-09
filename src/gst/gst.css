@@ -151,5 +151,7 @@ color: gray;
     font-weight: 600;
 }
 
+@media (min-width:350px) and (max-width:600px){
 
+}
 
