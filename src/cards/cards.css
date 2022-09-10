@@ -1,0 +1,40 @@
+ .services-card{
+    width: 75vw;
+    height:60vh;
+    display: flex;
+    margin-top: 40px;
+    background-color: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+ .services-card .right{
+    width: 37.5vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+ .services-card .right h1{
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 2.8vw;
+    color: rgb(4, 4, 54);
+    font-weight: bolder;
+}
+ .services-card .right p{
+font-family: 'Josefin Sans', sans-serif;
+font-weight: bold;
+padding-left: 3vw;
+font-size: 1.1rem;
+width: 35vw;
+color: gray;
+}
+.services-card img{
+    width: 37.5vw;
+    height: 60vh;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}

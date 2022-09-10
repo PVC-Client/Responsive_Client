@@ -1,0 +1,64 @@
+.trademark{
+    width: 100vw;
+    height: 220vh;
+    background-color: rgb(243, 235, 235);
+}
+.trademark .head{
+   width: 28.5vw;
+    border-bottom: 5px double black;
+    margin: auto;
+    
+    
+}
+.trademark .head h1{
+    padding-top: 50px;
+    color: rgb(4, 4, 54);
+}
+.trademark .content{
+    width: 100vw;
+    height: 200vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.trademark .content .trademark-card{
+    width: 75vw;
+    height:60vh;
+    display: flex;
+    margin-top: 40px;
+    background-color: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.trademark .content .trademark-card .right{
+    width: 37.5vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.trademark .content .trademark-card .right h1{
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 2.8vw;
+    color: rgb(4, 4, 54);
+    font-weight: bolder;
+}
+.trademark .content .trademark-card .right p{
+font-family: 'Josefin Sans', sans-serif;
+font-weight: bold;
+padding-left: 3vw;
+font-size: 1.1rem;
+width: 35vw;
+color: gray;
+}
+.trademark .content .trademark-card img{
+    width: 37.5vw;
+    height: 60vh;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
